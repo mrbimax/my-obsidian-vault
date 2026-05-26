@@ -1,12 +1,3 @@
----
-tags:
-  - backend
-  - devops
-  - kubernetes
-  - interview
----
-# Kubernetes для Go-разработчика
-
 ## 1. Базовая архитектура (Control Plane vs Worker Nodes)
 Kubernetes работает по схеме Master-Worker.
 
@@ -90,3 +81,6 @@ kubectl describe pod <pod-name>
 # Быстро посмотреть загрузку ресурсов нод или подов (нужен Metrics Server)
 kubectl top pods
 kubectl top nodes
+```
+
+
