@@ -1,0 +1,3 @@
+[DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) используется в Kubernetes, когда нужно запустить один или несколько подов на всех рабочих узлах кластера. То есть при запуске новых нод вам не потребуется вручную запускать поды, которые должны там быть для каких-то служебных задач. Например, с помощью него можно запустить поды с Prometheus Node Exporter для мониторинга, collectd или поды с fluentd or logstash для логирования узлов.  
+  
+Примечание: это не полный список контроллеров, есть еще [Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/).
