@@ -16,14 +16,11 @@ free -h
 
 **Пример вывода:**
 
-Plaintext
-
 ```
-               total        used        free      shared  buff/cache   available
-Mem:            15Gi       8.2Gi       1.1Gi       1.2Gi       6.1Gi       6.2Gi
-Swap:          2.0Gi       512Mi       1.5Gi
+	 total       used        free      shared  buff/cache   available
+Mem: 15Gi        8.2Gi       1.1Gi     1.2Gi   6.1Gi        6.2Gi
+Swap:2.0Gi       512Mi       1.5Gi
 ```
-
 ### Как правильно читать этот вывод:
 
 - **total** — сколько всего RAM установлено в системе.
