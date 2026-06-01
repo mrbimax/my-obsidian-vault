@@ -14,7 +14,7 @@
 
 Bash
 
-```
+``` bash
 df -h
 ```
 
@@ -22,7 +22,7 @@ df -h
 
 Plaintext
 
-```
+``` bash
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda1        50G   42G  5.5G  89% /
 tmpfs           3.9G     0  3.9G   0% /dev/shm
@@ -46,7 +46,7 @@ tmpfs           3.9G     0  3.9G   0% /dev/shm
 
 Bash
 
-```
+``` bash
 # Посмотреть топ-10 самых тяжелых папок в текущей директории
 du -h --max-depth=1 | sort -hr | head -n 10
 ```
