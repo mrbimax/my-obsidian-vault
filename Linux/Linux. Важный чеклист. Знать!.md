@@ -2,10 +2,10 @@
 1. [[cat]]
 2. [[vim]]/[[vi]]/[[nano]]
 3. [[systemctl]]
-4. journalctl
-5. grep
-6. ls
-7. chown
+4. [[journalctl]]
+5. [[grep]]
+6. [[ls]]
+7. [[chown]]
 8. chmod
 	- Как задаётся доступ цифрами?
 9. cd
