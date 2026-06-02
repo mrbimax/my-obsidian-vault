@@ -42,7 +42,7 @@
 
 Go
 
-```
+``` go
 // Пример концепта отправки
 func ProduceMessage(cl *franz.Client, ctx context.Context, topic string, payload []byte) {
     record := &franz.Record{Topic: topic, Value: payload}
