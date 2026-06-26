@@ -35,6 +35,8 @@ type iface struct {
 }
 ```
 
+### Структура itab
+
 Вся магия полиморфизма скрыта в структуре **`itab` (Interface Table)**:
 
 Go
