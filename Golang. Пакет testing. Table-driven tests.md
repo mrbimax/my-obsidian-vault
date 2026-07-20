@@ -1,3 +1,7 @@
+## *[[Golang. Пакет testing. Обзор фичей|Список фичей из пакета testing]]* 
+---
+## Golang. Пакет testing. Table-driven tests
+
 **Table-driven tests** — основной паттерн написания тестов в Go.
 
 Идея:
