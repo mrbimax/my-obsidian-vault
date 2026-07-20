@@ -16,13 +16,6 @@ t.Parallel()
 Это сокращает общее время выполнения тестов.
 
 ---
-## Синтаксис
-
-```go
-t.Parallel()
-```
-
----
 ## Простой пример
 
 ```go
@@ -35,13 +28,11 @@ import (
 
 func TestA(t *testing.T) {
 	t.Parallel()
-
 	time.Sleep(time.Second)
 }
 
 func TestB(t *testing.T) {
 	t.Parallel()
-
 	time.Sleep(time.Second)
 }
 ```
@@ -65,15 +56,10 @@ func TestUsers(t *testing.T) {
 	}
 
 	for _, name := range tests {
-
 		name := name
-
 		t.Run(name, func(t *testing.T) {
-
 			t.Parallel()
-
 			// тест
-
 		})
 	}
 }
@@ -85,7 +71,6 @@ func TestUsers(t *testing.T) {
 ```go
 func TestA(t *testing.T) {
 	t.Parallel()
-
 	// ...
 }
 ```
