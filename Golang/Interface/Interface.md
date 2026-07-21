@@ -2,4 +2,4 @@
 - [[Interface под капотом. eface, iface, itab#1. Пустой интерфейс `eface` (`interface{}` / `any`)|eface]]
 - [[Interface под капотом. eface, iface, itab#2. Непустой интерфейс `iface`|iface]]
 - [[Interface под капотом. eface, iface, itab#Структура itab|itab]]
-[[Как работает interface в Go. Почему nil interface может вести себя неожиданно]]
+[[Golang. Как работает interface. Почему nil interface может вести себя неожиданно]]
