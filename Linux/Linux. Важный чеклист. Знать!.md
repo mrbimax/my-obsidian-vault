@@ -1,5 +1,5 @@
 Важные утилиты:
-1. [[cat]]
+1. [[Linux/cat]]
 2. [[vim]]/[[vi]]/[[nano]]
 3. [[systemctl]]
 4. [[journalctl]]
